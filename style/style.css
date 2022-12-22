@@ -5,6 +5,12 @@ body{
     font-family: 'Heebo';
 }
 
+main{
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 img{
     padding: 100px;
@@ -38,8 +44,8 @@ img{
     padding-top: 100px;
 }
 
-button{
-
+.btn{
+    text-transform: uppercase;
     color: white;
     background-color: #6A6F85;
     font-size: 25px;
